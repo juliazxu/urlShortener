@@ -44,7 +44,7 @@ app.listen(PORT, () => {
 //encoding
 const base64url = require('base64-url');
 
-//post localhost:XXXX/shorten
+//see post commands at the end of doc
 app.post("/shorten", async (req, res) => {
 
   // check db to see if shortened version exists
